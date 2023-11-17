@@ -1,2 +1,0 @@
-message = ''.join(chr(ord(c) + 1) for c in "J'n`ph nq oqord`q sn J`xkz, b`m xnt gdnj?")
-print(message)
