@@ -5,3 +5,8 @@ encoded_message = [
 
 decoded_message = ''.join(chr(char) for char in encoded_message)
 print(decoded_message)
+
+encoded_resp1 = [97, 104, 104, 104, 32, 110, 105, 99, 101, 32, 73, 32, 99, 97, 110, 32, 114, 101, 97, 100, 32, 104, 97, 104, 97]
+
+decoded_resp1 = ''.join(chr(char) for char in encoded_resp1)
+print(decoded_resp1)
