@@ -1,1 +1,7 @@
-print(exec(''.join(chr(ord(c) - 1) for c in "J'n`ph nq oqord`q sn J`xkz, b`m xnt gdnj?")))
+encoded_message = [
+    73, 39, 109, 32, 103, 111, 105, 110, 103, 32, 116, 111, 32, 112, 114, 111, 112, 111, 115, 101, 32,
+    116, 111, 32, 75, 97, 121, 108, 97, 44, 32, 99, 97, 110, 32, 121, 111, 117, 32, 104, 101, 108, 112
+]
+
+decoded_message = ''.join(chr(char) for char in encoded_message)
+print(decoded_message)
